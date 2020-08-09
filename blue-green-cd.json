@@ -1,0 +1,14 @@
+[
+    {
+      "name": "blue-green-cd",
+      "image": "${image_id}",
+      "memory": 512,
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "hostPort": 80
+        }
+      ]
+    }
+  ]
